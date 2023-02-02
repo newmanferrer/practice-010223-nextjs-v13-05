@@ -1,4 +1,3 @@
-import { Navigation } from '../components'
 import { font_montserrat, font_roboto } from '../fonts'
 import './globals.css'
 
@@ -11,9 +10,6 @@ export default function RootLayout({ children }: IRootLayoutProps) {
     <html lang='en' className={`${font_montserrat.variable} ${font_roboto.variable}`}>
       <head />
       <body>
-        <header>
-          <Navigation />
-        </header>
         <main>{children}</main>
       </body>
     </html>
