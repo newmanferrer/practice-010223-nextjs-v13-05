@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from './Navigation.module.css'
+import styles from './Navigation.module.scss'
 
 interface ILink {
   id: number
@@ -16,12 +16,12 @@ const links: ILink[] = [
   {
     id: 2,
     label: 'Characters',
-    route: '/characters'
+    route: '/information/characters'
   },
   {
     id: 3,
-    label: 'Planets',
-    route: '/planets'
+    label: 'Locations',
+    route: '/information/locations'
   }
 ]
 

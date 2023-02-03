@@ -1,6 +1,6 @@
 .container {
-  width: 100vw;
-  margin-top: 4.5rem;
+  width: 90vw;
+  margin-top: 2rem;
   padding: 0.5rem 1rem;
 
   display: flex;
@@ -9,15 +9,22 @@
   justify-content: center;
   align-items: center;
 
-  background-color: white;
+  background-color: rgba(255, 69, 0, 0.3);
+  border: 2px solid rgb(255, 69, 0);
+  border-radius: 5px;
 }
 
 .container h1 {
   margin: 1rem 0 0.5rem;
+
+  font-size: 2rem;
   text-align: center;
 }
 
-.container p {
+.container h2 {
   margin: 0.5rem 0;
+
   font-family: var(--font-roboto);
+  font-size: 1.5rem;
+  text-align: center;
 }

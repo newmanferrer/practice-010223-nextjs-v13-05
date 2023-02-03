@@ -1,4 +1,4 @@
-import { CharacterCard } from '../../components'
+import { CharacterCard } from '../../../components'
 import { getAllCharacters } from './services'
 
 export default async function CharactersPage() {

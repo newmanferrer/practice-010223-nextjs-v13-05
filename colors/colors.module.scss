@@ -1,0 +1,11 @@
+$white-color: rgb(255, 255, 255);
+$black-color: rgb(0, 0, 0);
+$primary-color: rgb(255, 69, 0);
+$primary-color-alpha: rgba(255, 69, 0, 0.3);
+
+:export {
+  whiteColor: $white-color;
+  blackColor: $black-color;
+  primaryColor: $primary-color;
+  primaryColorAlpha: $primary-color-alpha;
+}

@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import { ICharacter } from '../../app/characters/models'
-import styles from './CharacterCard.module.css'
+import { ICharacter } from '../../app/information/characters/models'
+import styles from './CharacterCard.module.scss'
 
 interface IProps {
   data: ICharacter
