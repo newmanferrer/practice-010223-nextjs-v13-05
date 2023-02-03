@@ -1,3 +1,8 @@
-export default async function Home() {
-  return <h1>RICK AND MORTY APP</h1>
+export default async function HomePage() {
+  return (
+    <div>
+      <h1>WELCOME TO RICK AND MORTY APP</h1>
+      <h2>What do you want to see ?</h2>
+    </div>
+  )
 }

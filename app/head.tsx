@@ -1,4 +1,4 @@
-export default function Head() {
+export default function HomePageHead() {
   return (
     <>
       <title>Rick and Morty App | Home Page</title>
