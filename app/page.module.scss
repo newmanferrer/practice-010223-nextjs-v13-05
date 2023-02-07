@@ -1,3 +1,5 @@
+@use '../colors/colors' as *;
+
 .container {
   width: 90vw;
   margin-top: 2rem;
@@ -9,8 +11,8 @@
   justify-content: center;
   align-items: center;
 
-  background-color: rgba(255, 69, 0, 0.3);
-  border: 2px solid rgb(255, 69, 0);
+  background-color: $primary-color-alpha;
+  border: 2px solid $primary-color;
   border-radius: 5px;
 }
 

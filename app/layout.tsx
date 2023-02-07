@@ -1,6 +1,6 @@
 import { Navigation } from '../components'
 import { font_montserrat, font_roboto } from '../fonts'
-import './globals.css'
+import './globals.scss'
 
 interface IRootLayoutProps {
   children: React.ReactNode

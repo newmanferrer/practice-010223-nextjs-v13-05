@@ -10,11 +10,14 @@ The main objective of this project is to learn a little more about the tools and
 
 - Html 5
 - CSS Module
+- SASS (SCSS)
 - JavaScript
 - TypeScript version 4.9.5
 - React version 18.2.0
 - React Dom version 18.2.0
 - Nextjs version 13.1.6
+- PNPM
+- HUSKY
 
 ## Resources and documentation used
 

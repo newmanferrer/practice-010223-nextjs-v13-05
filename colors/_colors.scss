@@ -2,10 +2,16 @@ $white-color: rgb(255, 255, 255);
 $black-color: rgb(0, 0, 0);
 $primary-color: rgb(255, 69, 0);
 $primary-color-alpha: rgba(255, 69, 0, 0.3);
+$alert-color: rgb(226, 226, 11);
+$success-color: rgb(11, 163, 11);
+$danger-color: rgb(187, 9, 9);
 
 :export {
   whiteColor: $white-color;
   blackColor: $black-color;
   primaryColor: $primary-color;
   primaryColorAlpha: $primary-color-alpha;
+  alertColor: $alert-color;
+  successColor: $success-color;
+  dangerColor: $danger-color;
 }

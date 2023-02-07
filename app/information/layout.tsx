@@ -1,4 +1,4 @@
-import styles from './information.layout.module.css'
+import styles from './information.layout.module.scss'
 
 interface IProps {
   children: React.ReactNode
