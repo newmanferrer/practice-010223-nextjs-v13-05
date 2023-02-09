@@ -7,7 +7,7 @@ export default async function LocationsPage() {
   return (
     <>
       {locations.map(location => (
-        <LocationCard key={location.id} data={location} />
+        <LocationCard key={location.id} location={location} />
       ))}
     </>
   )

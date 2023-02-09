@@ -2,7 +2,7 @@
 
 .container {
   width: 90vw;
-  margin-top: 2rem;
+  margin: 2rem 0;
   padding: 0.5rem 1rem;
 
   display: flex;
@@ -14,19 +14,27 @@
   background-color: $primary-color-alpha;
   border: 2px solid $primary-color;
   border-radius: 5px;
+
+  & h1 {
+    margin: 1rem 0 0.5rem;
+
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  & h2 {
+    margin: 0.5rem 0;
+
+    font-family: var(--font-roboto);
+    font-size: 1.5rem;
+    text-align: center;
+  }
 }
 
-.container h1 {
-  margin: 1rem 0 0.5rem;
+.image {
+  width: 80%;
+  margin-bottom: 1rem;
 
-  font-size: 2rem;
-  text-align: center;
-}
-
-.container h2 {
-  margin: 0.5rem 0;
-
-  font-family: var(--font-roboto);
-  font-size: 1.5rem;
-  text-align: center;
+  border: 2px solid $primary-color;
+  border-radius: 10%;
 }

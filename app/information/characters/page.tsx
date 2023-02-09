@@ -7,7 +7,7 @@ export default async function CharactersPage() {
   return (
     <>
       {characters.map(character => (
-        <CharacterCard key={character.id} data={character} />
+        <CharacterCard key={character.id} character={character} />
       ))}
     </>
   )

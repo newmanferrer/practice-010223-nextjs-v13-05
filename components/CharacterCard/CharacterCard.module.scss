@@ -16,31 +16,31 @@
   border-radius: 5px;
   background-color: $primary-color;
   box-shadow: 2px 2px 5px 2px $black-color;
-}
 
-.container:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-}
+  &:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
 
-.container img {
-  border: 2px solid $black-color;
-  border-radius: 50%;
-}
+  & img {
+    border: 2px solid $black-color;
+    border-radius: 50%;
+  }
 
-.container h3,
-.container h4 {
-  font-family: var(--font-roboto);
-  color: $white-color;
-}
+  & h3,
+  h4 {
+    font-family: var(--font-roboto);
+    color: $white-color;
+  }
 
-.container h3 {
-  margin: 0.5rem 0 1rem;
-  font-size: 1.5rem;
-  text-decoration: underline;
-  text-underline-offset: 5px;
-}
+  & h3 {
+    margin: 0.5rem 0 1rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
 
-.container h4 {
-  font-size: 1.2rem;
+  & h4 {
+    font-size: 1.2rem;
+  }
 }

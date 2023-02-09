@@ -15,28 +15,28 @@
   z-index: 1;
 
   background-color: colors.$primary-color;
-}
 
-.nav ul {
-  display: flex;
-  gap: 2rem;
-}
+  & ul {
+    display: flex;
+    gap: 2rem;
 
-.nav li {
-  list-style: none;
-}
+    & li {
+      list-style: none;
 
-.nav a {
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: colors.$white-color;
+      & a {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: colors.$white-color;
 
-  transition: all 0.5s ease-in-out;
-}
+        transition: all 0.5s ease-in-out;
 
-.nav a:hover {
-  color: colors.$black-color;
-  text-decoration: underline;
-  text-underline-offset: 5px;
+        &:hover {
+          color: colors.$black-color;
+          text-decoration: underline;
+          text-underline-offset: 5px;
+        }
+      }
+    }
+  }
 }
