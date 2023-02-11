@@ -1,5 +1,5 @@
 import { Navigation } from '../components'
-import { font_montserrat, font_roboto } from '../fonts'
+import { font_montserrat, font_roboto, font_firaCode } from '../fonts'
 import './globals.scss'
 
 interface IRootLayoutProps {
@@ -8,7 +8,10 @@ interface IRootLayoutProps {
 
 export default function RootLayout({ children }: IRootLayoutProps) {
   return (
-    <html lang='en' className={`${font_montserrat.variable} ${font_roboto.variable}`}>
+    <html
+      lang='en'
+      className={`${font_montserrat.variable} ${font_roboto.variable} ${font_firaCode.variable}`}
+    >
       <head />
       <body>
         <header>

@@ -12,6 +12,7 @@ export default async function HomePage() {
       </div>
 
       {/* Remote Image */}
+      <h2 className={styles.firaCodeLocal}>Remote Image</h2>
       <Image
         className={styles.image}
         src='https://rickandmortyapi.com/api/character/avatar/1.jpeg'
@@ -24,6 +25,7 @@ export default async function HomePage() {
       />
 
       {/* Local Image */}
+      <h2 className={styles.firaCodeLocal}>Local Image</h2>
       <Image
         className={styles.image}
         src={mountains}

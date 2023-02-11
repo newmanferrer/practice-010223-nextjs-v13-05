@@ -7,7 +7,7 @@ interface IProps {
   character: ICharacter
 }
 
-export function CharacterCard({ character }: IProps) {
+export default function CharacterCard({ character }: IProps) {
   //* Using Logical Assignment "||="
   const formattedSpecies = (character.species ||= 'N/A')
 
