@@ -1,0 +1,55 @@
+@use '../../colors/colors' as *;
+
+.container {
+  width: 50vw;
+  padding: 1rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  & h3 {
+    text-align: center;
+    color: $primary-color;
+  }
+
+  & span {
+    &::after,
+    &::before {
+      content: '';
+      width: 48px;
+      height: 48px;
+
+      position: absolute;
+      top: 35px;
+      left: 45%;
+
+      border: 5px solid $primary-color;
+      border-radius: 50%;
+
+      animation: loader 3s linear infinite;
+    }
+
+    &::after {
+      opacity: 0;
+      animation-delay: 1s;
+    }
+  }
+}
+
+@keyframes loader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
