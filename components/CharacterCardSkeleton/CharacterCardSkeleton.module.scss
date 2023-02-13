@@ -14,7 +14,7 @@
 
   border: 2px solid $black-color;
   border-radius: 5px;
-  background-color: #3b3b3b;
+  background-color: $skeleton-backgroundColor;
   box-shadow: 2px 2px 5px 2px $black-color;
 
   & img {

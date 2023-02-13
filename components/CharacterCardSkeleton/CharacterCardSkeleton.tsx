@@ -1,8 +1,8 @@
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
+import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import styles from './CharacterCardSkeleton.module.scss'
 
-const CharacterCardSkeleton = () => {
+export const CharacterCardSkeleton = () => {
   return (
     <div className={styles.container}>
       <div>
@@ -24,25 +24,5 @@ const CharacterCardSkeleton = () => {
         </h4>
       </div>
     </div>
-  )
-}
-
-export const CharacterPageSkeleton = () => {
-  return (
-    <SkeletonTheme
-      width={480}
-      borderRadius={5}
-      baseColor='#202020'
-      highlightColor='#444'
-      enableAnimation={true}
-      duration={1.5}
-    >
-      <CharacterCardSkeleton />
-      <CharacterCardSkeleton />
-      <CharacterCardSkeleton />
-      <CharacterCardSkeleton />
-      <CharacterCardSkeleton />
-      <CharacterCardSkeleton />
-    </SkeletonTheme>
   )
 }
