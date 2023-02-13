@@ -1,0 +1,19 @@
+@use '../../colors/colors' as c;
+
+.container {
+  width: 30rem;
+  margin: 1rem;
+  padding: 1rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.5s ease-in-out;
+
+  border: 2px solid c.$black-color;
+  border-radius: 5px;
+  background-color: c.$skeleton-backgroundColor;
+  box-shadow: 2px 2px 5px 2px c.$black-color;
+}

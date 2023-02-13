@@ -5,7 +5,7 @@ interface IProps {
   location: ILocation
 }
 
-export function LocationCard({ location }: IProps) {
+export default function LocationCard({ location }: IProps) {
   return (
     <div className={styles.container}>
       <div>
