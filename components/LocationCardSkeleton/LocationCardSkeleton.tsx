@@ -1,41 +1,43 @@
-'use client'
-
-import { Skeleton } from '@mui/material'
+import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 import styles from './LocationCardSkeleton.module.scss'
 import colors from '../../colors/colors.module.scss'
 
-export const LocationCardSkeleton = () => {
-  return (
-    <div className={styles.container}>
-      <div>
-        <Skeleton
-          width={250}
-          height={45}
-          sx={{ bgcolor: `${colors.skeletonBaseColor}` }}
-          animation='pulse'
-        />
-      </div>
+interface IProps {
+  quantity?: number
+}
 
-      <div>
-        <Skeleton
-          width={350}
-          height={25}
-          sx={{ bgcolor: `${colors.skeletonBaseColor}` }}
-          animation='pulse'
-        />
-        <Skeleton
-          width={350}
-          height={25}
-          sx={{ bgcolor: `${colors.skeletonBaseColor}` }}
-          animation='pulse'
-        />
-        <Skeleton
-          width={350}
-          height={25}
-          sx={{ bgcolor: `${colors.skeletonBaseColor}` }}
-          animation='pulse'
-        />
-      </div>
-    </div>
+export const LocationCardSkeleton = ({ quantity = 1 }: IProps) => {
+  return (
+    <SkeletonTheme
+      width={480}
+      borderRadius={5}
+      baseColor={colors.skeletonBaseColor}
+      highlightColor={colors.skeletonHighlightColor}
+      enableAnimation={true}
+      duration={1.5}
+    >
+      {[...Array(quantity)].map(index => (
+        <div className={styles.container} key={index}>
+          <div>
+            <h3>
+              <Skeleton count={1} width={256} />
+            </h3>
+          </div>
+
+          <div>
+            <h4>
+              <Skeleton count={1} width={350} />
+            </h4>
+            <h4>
+              <Skeleton count={1} width={350} />
+            </h4>
+            <h4>
+              <Skeleton count={1} width={350} />
+            </h4>
+          </div>
+        </div>
+      ))}
+    </SkeletonTheme>
   )
 }

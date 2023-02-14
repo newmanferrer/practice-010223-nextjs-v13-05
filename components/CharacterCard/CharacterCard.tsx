@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { ICharacter } from '../../app/information/characters/models'
-import { girl_face_base64_2 } from '../../public/images'
+import { rick_and_morty_base64 } from '../../public/images'
 import styles from './CharacterCard.module.scss'
 
 interface IProps {
@@ -19,13 +19,13 @@ export default function CharacterCard({ character }: IProps) {
           alt={character.name}
           width='150'
           height='150'
-          blurDataURL={girl_face_base64_2}
+          blurDataURL={rick_and_morty_base64}
           placeholder='blur'
         />
       </div>
 
       <div>
-        <h3>Name: {character.name}</h3>
+        <h3>{character.name}</h3>
       </div>
 
       <div>

@@ -1,8 +1,11 @@
 export { Navigation } from './Navigation/Navigation'
-export { default as CharacterCard } from './CharacterCard/CharacterCard'
-export { default as LocationCard } from './LocationCard/LocationCard'
+
 export { Loader } from './Loader/Loader'
+
+export { default as CharacterCard } from './CharacterCard/CharacterCard'
 export { CharacterCardSkeleton } from './CharacterCardSkeleton/CharacterCardSkeleton'
-export { CharacterPageSkeleton } from './CharacterPageSkeleton/CharacterPageSkeleton'
+export { CharacterCardSkeletonMU } from './CharacterCardSkeletonMU/CharacterCardSkeletonMU'
+
+export { default as LocationCard } from './LocationCard/LocationCard'
 export { LocationCardSkeleton } from './LocationCardSkeleton/LocationCardSkeleton'
-export { LocationPageSkeleton } from './LocationPageSkeleton/LocationPageSkeleton'
+export { LocationCardSkeletonMU } from './LocationCardSkeletonMU/LocationCardSkeletonMU'

@@ -17,20 +17,13 @@
   background-color: c.$skeleton-backgroundColor;
   box-shadow: 2px 2px 5px 2px c.$black-color;
 
-  & h3,
-  h4 {
-    font-family: var(--font-roboto);
-    color: c.$white-color;
-  }
-
   & h3 {
-    margin: 0.5rem 0 1rem;
-    font-size: 1.5rem;
-    text-decoration: underline;
-    text-underline-offset: 5px;
+    margin-top: 0.5rem;
+    font-size: 2.2rem;
   }
 
   & h4 {
-    font-size: 1.2rem;
+    margin: 0 0 -0.2rem;
+    font-size: 1.5rem;
   }
 }
