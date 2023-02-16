@@ -6,22 +6,35 @@ In this project we will follow the guided practice carried out by the YouTube ch
 
 The main objective of this project is to learn a little more about the tools and possibilities offered by using nextjs in its version 13.
 
+Some of the most important points are:
+
+- Image Optimization.
+- Use and optimization of fonts.
+- Lazy loading.
+- Suspense.
+- Use of load skeletons.
+
 ## Used technology
 
 - Html 5
 - CSS Module
-- SASS (SCSS)
+- SASS (SCSS) version 1.58.0
 - JavaScript
 - TypeScript version 4.9.5
 - React version 18.2.0
 - React Dom version 18.2.0
+- Material UI (Skeleton) version 5.11.8
 - Nextjs version 13.1.6
-- PNPM
-- HUSKY
+- React Loading Skeleton version 3.1.1
+- PNPM version 7.16.1
+- HUSKY version 8.0.3
 
 ## Resources and documentation used
 
 - Nextjs V13: https://beta.nextjs.org/docs
+- RLS: https://www.npmjs.com/package/react-loading-skeleton
+- Material UI (Skeleton): https://mui.com/material-ui/react-skeleton/
+- Sass: https://sass-lang.com/
 
 ## Developers: Requirements
 
