@@ -27,7 +27,7 @@ export const CharacterCardSkeletonMU = ({ quantity = 1 }: IProps) => {
             <Typography variant='h3'>
               <Skeleton
                 variant='text'
-                width={256}
+                width={200}
                 sx={{ bgcolor: `${colors.skeletonBaseColor}` }}
                 animation='pulse'
               />

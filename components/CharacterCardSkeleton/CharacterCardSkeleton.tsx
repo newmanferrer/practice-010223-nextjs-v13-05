@@ -25,7 +25,7 @@ export const CharacterCardSkeleton = ({ quantity = 1 }: IProps) => {
 
           <div>
             <h3>
-              <Skeleton count={1} width={256} />
+              <Skeleton count={1} width={200} />
             </h3>
           </div>
 
